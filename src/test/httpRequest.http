@@ -1,0 +1,42 @@
+### GET request to example server
+
+GET localhost:7070/api/v1/dogs
+Accept: application/json
+
+###
+
+GET localhost:7070/api/v1/dogs/1
+Accept: application/json
+
+###
+
+POST localhost:7070/api/v1/dogs
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": "4",
+  "name": "Johnny",
+  "breed": "Cockerspaniel",
+  "age": "10"
+}
+
+###
+
+PUT localhost:7070/api/v1/dogs/2
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": "3",
+  "name": "Simon",
+  "breed": "Ulvehund",
+  "age": "5"
+}
+
+###
+
+DELETE localhost:7070/api/v1/dogs/1
+Accept: application/json
+
+
